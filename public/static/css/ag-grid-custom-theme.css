@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,600&display=swap");
+/*
+CUSTOM AG-GRID CSS HERE
+MORE DOCUMENTATION HERE : https://www.ag-grid.com/javascript-data-grid/themes/
+*/
+.ag-theme-alpine {
+    --ag-foreground-color: #fff;
+    --ag-header-height: 30px;
+    --ag-header-foreground-color: #fff;
+    --ag-header-background-color: #0b3253;
+    --ag-header-cell-hover-background-color: rgb(80, 40, 140);
+    --ag-header-cell-moving-background-color: rgb(80, 40, 140);
+    --ag-column-select-indent-size: 40px;
+    --ag-control-panel-background-color: #0b3253;
+    --ag-selected-tab-underline-color: #0b3253;
+    --ag-selected-tab-underline-width: 2px;
+    --ag-selected-tab-underline-transition-speed: 0.5s;
+    --ag-side-bar-panel-width: 300px;
+    --ag-font-family: "Poppins";
+}
+
+.ag-theme-alpine .ag-header-group-cell {
+    font-weight: normal;
+    font-size: 18px;
+}
+.ag-theme-alpine .ag-header-cell {
+    font-size: 12px;
+}
+
+.ag-theme-alpine .ag-column-drop-cell {
+    background-color: #0b3253;
+}
+
+.ag-theme-alpine .ag-column-drop-cell .ag-icon {
+    color: white;
+}
+
+.ag-theme-alpine .ag-column-drop-cell-text {
+    color: white;
+    font-weight: bold;
+}
+
+.ag-theme-alpine .ag-filter-toolpanel-group-title-bar {
+/ use a semi-transparent background to show the background colour behind /
+background-color: rgb(255, 255, 255, 0.2);
+}
+
+.ag-theme-alpine .ag-side-buttons,
+.ag-theme-alpine .ag-row {
+    color: #000;
+}
+
+.ag-theme-alpine{
+    min-height: 675px !important;
+}
+
+input[type="button"]{
+    background: #0b3253;
+    color: #fff;
+    min-width: 100px;
+    height: 34px;
+}
+
+
+
